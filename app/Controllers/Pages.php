@@ -5,6 +5,7 @@
 	{
 		public function index()
 		{
+			echo SYSTEMPATH;
 			return view('welcome_message');
 		}
 		

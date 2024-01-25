@@ -27,9 +27,9 @@ class Database extends Config
     public array $default = [
         'DSN'          => '',
         'hostname'     => 'localhost',
-        'username'     => '',
-        'password'     => '',
-        'database'     => '',
+		'username'    => 'dykim10',
+		'password'    => '!@iufc0411A',
+		'database'    => 'userinfo',
         'DBDriver'     => 'MySQLi',
         'DBPrefix'     => '',
         'pConnect'     => false,
@@ -41,7 +41,7 @@ class Database extends Config
         'compress'     => false,
         'strictOn'     => false,
         'failover'     => [],
-        'port'         => 3306,
+        'port'         => 3308,
         'numberNative' => false,
     ];
 
@@ -51,11 +51,11 @@ class Database extends Config
      */
     public array $tests = [
         'DSN'         => '',
-        'hostname'    => '127.0.0.1',
+        'hostname'    => 'localhost',
         'username'    => 'dykim10',
         'password'    => '!@iufc0411A',
-        'database'    => ':memory:',
-        'DBDriver'    => 'SQLite3',
+        'database'    => 'userinfo',
+		'DBDriver'     => 'MySQLi',
         'DBPrefix'    => 'db_',  // Needed to ensure we're working correctly with prefixes live. DO NOT REMOVE FOR CI DEVS
         'pConnect'    => false,
         'DBDebug'     => true,

@@ -70,13 +70,13 @@
 </head>
 <body>
     <div class="wrap">
-        <h1>404</h1>
+        <h1>ERROR :: 404</h1>
 
         <p>
             <?php if (ENVIRONMENT !== 'production') : ?>
                 <?= nl2br(esc($message)) ?>
             <?php else : ?>
-                <?= lang('Errors.sorryCannotFind') ?>
+                <?= lang('Errors.orryCannotFind') ?>
             <?php endif; ?>
         </p>
     </div>
